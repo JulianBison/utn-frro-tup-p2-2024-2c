@@ -19,7 +19,7 @@ p {
     
 
 }
-li {
+ul li {
     font-family: monospace;
     font-size: 18px;
     margin: 10px;
@@ -29,7 +29,7 @@ a {
     text-decoration: underline;
     background:none;
 }
-li a {
+ul li a {
     color: orange;
     text-decoration: underline;
     background:none;
