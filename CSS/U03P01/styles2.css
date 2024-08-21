@@ -1,51 +1,59 @@
 *{
     font-family: sans-serif;
-    background-color: rgb(245, 245, 245);   
-}
+    background-color: rgb(245, 245, 245);
+    }
 h1 {
     font-size: 24px;
-    color:#242424;
+    color: #242424;
     font-weight: 900;
 }
 h2 {
+    border-style: double inset;
+    border-color: red;
+    border-width: 5px 31px 3px 22px;
+    padding: 20px;
+    margin: 30px;
     font-size: 20px;
-    color:#606060;
+    color: #000000;
     font-weight: 800;
 }
 p {
     font-size: 14px;
     margin-top: 30px;
     margin-bottom: 30px;
-    
-
+    padding: 10px 25px;
 }
-ul li {
+li {
     font-family: monospace;
     font-size: 18px;
-    margin: 10px;
-}
-a {
-    font-weight: bold;
-    text-decoration: underline;
-    background:none;
-}
-ul li a {
+    a {
     color: orange;
     text-decoration: underline;
-    background:none;
+    }
+    padding: 10px;
 }
-.neuquenrionegro {
+a {
+    font-weight: bolder;
+    background: none;
+}
+.Verde {
     color: green;
+    a {
+    color: green;
+    }
+    border: 2px solid red;
 }
-ul{
-    list-style-type: none;
-    max-width: 40%;
+ul {
     margin-left: 100px;
     padding: 20px;
-    border: solid;
-    border-width: 2px;
-    border-color: blue;
-}
-ul li:hover{
-    background-color: rgba(0, 0, 0, 0.1) !important;
+    border-style: groove solid dashed;
+    border-width: 5px 15px 20px;
+    border-color: red blue green black;
+    max-width: 40%;
+    list-style-type: none;
+    height: 200px;
+    overflow: auto;
+    :hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    }
 }
